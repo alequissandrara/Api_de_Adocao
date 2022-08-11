@@ -32,7 +32,7 @@ footer p a{
     color: #611380;
     background-color: #efef46;
 }
-.align-self-center {
+.align-self-center.texto {
     align-self: center!important;
     margin-top: 25%;
 }
