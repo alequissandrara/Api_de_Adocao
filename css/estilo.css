@@ -1,6 +1,7 @@
 .home{
     background: linear-gradient(to right, #611380 0%, #eed709 100%);;
     color: white;
+    height: calc(100vh - 124.93px);
 }
 .caixa{
     padding: 60px 0;
@@ -30,4 +31,11 @@ footer p a{
 #frase{
     color: #611380;
     background-color: #efef46;
+}
+.align-self-center {
+    align-self: center!important;
+    margin-top: 25%;
+}
+.col-md-6.data-slide-to.d-none.d-lg-block{
+    margin-top: 8%;
 }
