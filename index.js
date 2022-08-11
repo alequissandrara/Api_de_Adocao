@@ -24,7 +24,7 @@ function consultarRacas(){
  
  function mostraRacas(data){
      let resultado = document.getElementById('resultado');
-     resultado.innerHTML = `<img src="${data.message}" style=" width: 500px;" />` 
+     resultado.innerHTML = `<img src="${data.message}" style=" width: 500px; height:500px;" />` 
      
                            
  }
