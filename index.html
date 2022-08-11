@@ -88,10 +88,22 @@
                 <div class="align-self-center ">
                         <form class="mt-2 mb-2">
                             <div class="input-group input-group-lg">
-                                <input type="text" id="racas" placeholder="Raças díponíveis" class="form-control">
+                                <input type="text" id="racas" list="datalistOptions" placeholder="Raças díponíveis" class="form-control">
+                                <datalist id="datalistOptions">
+                                    <option value="affenpinscher"></option>
+                                    <option value="airdale"></option>
+                                    <option value="groenendael"></option>
+                                    <option value="basenji"></option>
+                                    <option value="beagle"></option>
+                                    <option value="bullterrier"></option>
+                                    <option value="dachshund"></option>
+                                    <option value="pyrenees"></option>
+                                    <option value="shiba"> </option>  
+                                    <option value="pyrenees"> </option>     
+                                  </datalist>
                                 <div class="input-group-append">
                                     <button type="button"  onclick="consultarRacas()" class="btn btn-warning"> Pesquisar </button>
-                            </div>
+                                </div>
                             </div>
                         </form>
                     <h2>O ato de adotar muda vidas!</h2>
@@ -102,10 +114,12 @@
                         <span class="dados">@Me_AUdote</span>
                     </p>
                     <a href="" class="btn btn-primary" > Ligar </a>
+
+                    
                 </div>
             </div>
             <div   class="col-md-6">  
-                <h3 id="frase"></h3> 
+                <h4 id="frase"></h4> 
                 <div id="resultado">
                         <img src="img/adote.png"  class="img-fluid" >
                 </div> 
