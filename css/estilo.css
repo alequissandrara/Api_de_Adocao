@@ -1,6 +1,7 @@
 .home{
     background: linear-gradient(to right, #611380 0%, #eed709 100%);;
     color: white;
+    
 }
 .caixa{
     padding: 60px 0;
@@ -24,7 +25,7 @@ footer p a{
 }
 #resultado{
 
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     object-fit: cover;
 }
