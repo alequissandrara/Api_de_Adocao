@@ -1,0 +1,31 @@
+.home{
+    background: linear-gradient(to right, #611380 0%, #eed709 100%);;
+    color: white;
+    
+}
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a{
+    margin:5px 15px;
+}
+
+.nome{
+    color: #611380;
+}
+footer p a{
+    text-decoration: none;
+}
+
+.dados{
+    background-color: #611380;
+    color: #efef46;
+}
+#resultado{
+
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
