@@ -30,9 +30,9 @@ footer p a{
 }
 #frase{
     color: #611380;
-    background-color: #efef46;
     text-align: center;
-  margin-right: 8.5rem;
+    background-color: #eed709;
+    font-weight: bold
 }
 .align-self-center.texto {
     align-self: center!important;
@@ -40,4 +40,12 @@ footer p a{
 }
 .col-md-6.data-slide-to.d-none.d-lg-block{
     margin-top: 8%;
+}
+.margens{
+    width:320px ;
+    height: 6rem;
+    text-align:left;
+}
+.img-fluid.adote{
+    max-width: 150%;
 }
